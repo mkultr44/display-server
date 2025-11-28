@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>HUTH Werbedisplay</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/fonts.css" type="text/css"/>
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="wrap-pos pos-inactive" id="postop">
+                <div class="wrap-pos-inner" id="wrap-pos-inner-top">
+                    <div class="customerdisplay-inner">                        
+                        <div class="wrap-pos-custText" id="line1top"></div>
+                        <div class="wrap-pos-custText" id="line2top"></div>
+                    </div>
+                    <div class="qrcode" id="qrcodetop">
+                        <div class="qrcode-text">Ihr Kassenbeleg</div>
+                        <div class="qrcode-img" id="qrcodetop-img"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="wrap-content" id="content">
+            </div>
+            
+            <div class="wrap-pos pos-inactive" id="posbottom">
+                <div class="wrap-pos-inner"  id="wrap-pos-inner-bottom">
+                    <div class="customerdisplay-inner"> 
+                        <div class="wrap-pos-custText" id="line1bottom"></div>
+                        <div class="wrap-pos-custText" id="line2bottom"></div>
+                    </div>
+                    <div class="qrcode" id="qrcodebottom">
+                        <div class="qrcode-text">Ihr Kassenbeleg</div>
+                        <div class="qrcode-img" id="qrcodebottom-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+        <script src="assets/js/jquery-3.7.1.js"></script>
+        <script src="assets/js/promotion.js"></script>
+        <script src="assets/js/promowebsocket.js"></script>
+    </body>
+</html>

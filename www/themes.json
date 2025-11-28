@@ -1,0 +1,381 @@
+{
+    "themes": {
+        "Standard": {
+            "global-font": "'PT Sans Narrow', sans-serif", /* Schriftart */
+            "global-font-size": "1.2em",
+            "background-image": "", /* Hintergundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#00336d", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#75A4C7", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF",  /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#000", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.3)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "1px solid rgb(207, 231, 250)", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "10%", /* Höhe der Kundenanzeige */
+            "height-content": "90%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'PT Sans Narrow', sans-serif", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "2.4em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "70px", /* Höhe einer Kundenanzeigezeile */   
+            "borderradius-pos": "10px", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "10px", /* Radius der Rundung des Artikelbereich */
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "0", /* Position der Werbebilder */
+            "border-leftright-advertising": "0 solid #000", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207, 231, 250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207, 231, 250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "Mundorf": {
+            "global-font": "'PT Sans Narrow', sans-serif", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "", /* Hintergundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#e95f16", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#db4d0a", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF", /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#db4d0a", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "#b2b2b2", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.9)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "transparent", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "fontfamily-pos": "Ubuntu, Tahoma, sans-serif", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "3.9em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "#b2b2b2", /* Farbe der Schrift in der Kundenanzeige */
+            "height-pos": "15%", /* Höhe der Kundenanzeige */
+            "height-content": "85%", /* Höhe des restlichen Contents */
+            "lineheight-pos": "125px", /* Höhe einer Kundenanzeigezeile */
+            "borderradius-pos": "10px", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "10px", /* Radius der Rundung des Artikelbereich */
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "0", /* Position der Werbebilder */
+            "border-leftright-advertising": "0 solid #000", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207, 231, 250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207, 231, 250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */
+        },
+        "OIL!": {
+            "global-font": "'Roboto'", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "url(/assets/img/hintergrund-holz.jpg)", /* Hintergrundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#005700", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#98bf00", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF", /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#005700", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.3)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "1px solid rgb(207, 231, 250)", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "15%", /* Höhe der Kundenanzeige */
+            "height-content": "85%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Roboto'", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "3.8em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "125px", /* Höhe einer Kundenanzeigezeile */        
+            "borderradius-pos": "0", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "rgba(0,0,0,0.3)", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "1px solid rgb(207,231,250)", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "0", /* Radius der Rundung des Artikelbereich */
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "20px", /* Position der Werbebilder */
+            "border-leftright-advertising": "1px solid rgb(207,231,250)", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207,231,250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207,231,250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "BayWa": {
+            "global-font": "'PT Sans Narrow', sans-serif", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "", /* Hintergundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "rgb(0, 131, 81)", /* Haupt-Farbverlauf oben */
+            "color-bottom": "rgb(0, 131, 81)", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF",  /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#000", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.3)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "transparent", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "10%", /* Höhe der Kundenanzeige */
+            "height-content": "90%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'PT Sans Narrow', sans-serif", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "2.4em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "70px", /* Höhe einer Kundenanzeigezeile */   
+            "borderradius-pos": "10px", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "10px", /* Radius der Rundung des Artikelbereich */ 
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "0", /* Position der Werbebilder */
+            "border-leftright-advertising": "0 solid #000", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207, 231, 250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207, 231, 250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "AVIA": {
+            "global-font": "'Helvetica Neue Roman', sans-serif", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "", /* Hintergundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "rgb(187, 30, 16)", /* Haupt-Farbverlauf oben (RAL 3020)*/
+            "color-bottom": "rgb(187, 30, 16)", /* Haupt-Farbverlauf unten (RAL 3020)*/
+            "color-bottomtext-font": "#FFF",  /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#000", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.3)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "1px solid rgb(207, 231, 250)", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "10%", /* Höhe der Kundenanzeige */
+            "height-content": "90%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Helvetica Neue Roman', sans-serif", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "2.6em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "80px", /* Höhe einer Kundenanzeigezeile */   
+            "borderradius-pos": "10px", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "10px", /* Radius der Rundung des Artikelbereich */ 
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "0", /* Position der Werbebilder */
+            "border-leftright-advertising": "0 solid #000", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207, 231, 250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207, 231, 250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "Lother": {
+            "global-font": "'Roboto'", /* Schriftart */
+            "global-font-size": "1.2em",
+            "background-image": "url(/assets/img/hintergrund-rost.jpg)",  /* Hintergrundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#005700", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#98bf00", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF", /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#005700", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "transparent", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250, 1)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.0)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "transparent", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "2em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "15%", /* Höhe der Kundenanzeige */
+            "height-content": "85%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Roboto'", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "3.8em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "125px", /* Höhe einer Kundenanzeigezeile */        
+            "borderradius-pos": "0", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "0", /* Radius der Rundung des Artikelbereich */
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "20px", /* Position der Werbebilder */
+            "border-leftright-advertising": "1px solid rgb(207,231,250)", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207,231,250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207,231,250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "Bellersheim-Rot": {
+            "global-font": "'Roboto'", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "", /* Hintergrundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#bb1e10", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#931e10", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF", /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#005700", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "transparent", /* Hintergund Kundenanzeige */
+            "color-pos-border": "transparent", /* Rahmen Kundenanzeige */
+            "color-pos-line": "transparent", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "10px solid white", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "3em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "bold", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "left", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 25px auto 0", /* Margin für Artikelpreise */
+            "currency-position": "absolute", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "-25px", /* Rechte Koordinate für die Artikelwährung */
+            "promo-left": "59%", /* Linke Position des Störers */
+            "height-pos": "15%", /* Höhe der Kundenanzeige */
+            "height-content": "85%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Roboto'", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "3.8em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "125px", /* Höhe einer Kundenanzeigezeile */        
+            "borderradius-pos": "0", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion-hell.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "0", /* Radius der Rundung des Artikelbereich */ 
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.25rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "20px", /* Position der Werbebilder */
+            "border-leftright-advertising": "1px solid rgb(207,231,250)", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207,231,250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207,231,250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "Bellersheim-Blau": {
+            "global-font": "'Roboto'", /* Schriftart */
+            "global-font-size": "1.2em",			
+            "background-image": "", /* Hintergrundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#00336d", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#75A4C7", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF", /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#005700", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "transparent", /* Hintergund Kundenanzeige */
+            "color-pos-border": "transparent", /* Rahmen Kundenanzeige */
+            "color-pos-line": "transparent", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "10px solid white", /* Abschlusslinie der Kundenanzeige */            
+            "toptext-font-size": "3em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-font-weight": "normal", /* font-weight der Artikelüberschrift-Schriftart*/
+            "toptext-text-align": "left", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 25px auto 0", /* Margin für Artikelpreise */
+            "currency-position": "absolute", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "-25px", /* Rechte Koordinate für die Artikelwährung */
+            "promo-left": "59%", /* Linke Position des Störers */
+            "height-pos": "15%", /* Höhe der Kundenanzeige */
+            "height-content": "85%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Roboto'", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "3.8em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "125px", /* Höhe einer Kundenanzeigezeile */        
+            "borderradius-pos": "0", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion-hell.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "0", /* Radius der Rundung des Artikelbereich */
+            "font-weight-articles": "bold", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.25rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "20px", /* Position der Werbebilder */
+            "border-leftright-advertising": "1px solid rgb(207,231,250)", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207,231,250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207,231,250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "", /* Logo */
+            "slogan": "" /* Werbeslogan */ 
+        },
+        "Ektra": {
+            "global-font": "'Fredericka the Great', sans-serif", /* Schriftart */
+            "global-font-size": "1.2em",
+            "background-image": "", /* Hintergundbild */
+            "color-font": "#FFF", /* Allgemeine Schriftfarbe */
+            "color-fontshadow": "#000", /* Farbe des Schattens der allgmeinen Schrift */
+            "color-top": "#000", /* Haupt-Farbverlauf oben */
+            "color-bottom": "#000", /* Haupt-Farbverlauf unten */
+            "color-bottomtext-font": "#FFF",  /* Unterer Werbetext auf der Seite mit 10 Artikeln ohne Werbe-Bilder */
+            "color-bottomtext-fontshadow": "#000", /* Schattenfarbe des unteren Werbetext auf der Seite mit 9 Artikeln ohne Werbe-Bilder */
+            "color-pos-frame": "transparent", /* Hintergrundfarbe rund um die Kundenanzeige */
+            "color-pos-background": "rgba(0, 0, 0, 0.3)", /* Hintergund Kundenanzeige */
+            "color-pos-border": "rgb(207, 231, 250)", /* Rahmen Kundenanzeige */
+            "color-pos-line": "rgba(255, 255, 255, 0.3)", /* Linie zwischen zwei Zeilen der Kundenanzeige */
+            "pos-separator": "1px solid rgb(207, 231, 250)", /* Abschlusslinie der Kundenanzeige */
+            "toptext-font-size": "3em", /* Größe der Artikelüberschrift-Schriftart */
+            "toptext-text-align": "center", /* Ausrichtung der Artikelüberschrift */
+            "price-margin": "auto 135px", /* Margin für Artikelpreise */
+            "currency-position": "relative", /* Position-Angabe für die Artikelwährung */
+            "currency-right": "0", /* Rechte Koordinate für die Artikelwährung */            
+            "promo-left": "82%", /* Linke Position des Störers */
+            "height-pos": "10%", /* Höhe der Kundenanzeige */
+            "height-content": "90%", /* Höhe des restlichen Contents */
+            "fontfamily-pos": "'Fredericka the Great', sans-serif", /* Schriftart im Kundendisplay */
+            "fontsize-pos": "2.4em", /* Größe der Schrift in der Kundenanzeige */
+            "fontcolor-pos": "inherit", /* Farbe der Schrift in der Kundenanzeige */
+            "lineheight-pos": "70px", /* Höhe einer Kundenanzeigezeile */   
+            "borderradius-pos": "10px", /* Radius der Rundung der Kundenanzeige */
+            "promosign": "url(../img/aktion.png)", /* Symbol für Aktionspreis */
+            "background-color-articles": "transparent", /* Hintergundfarbe im Artikelbereich */
+            "border-articles": "0 solid #000", /* Rahmen des Artikelbereichs */
+            "borderradius-articles": "10px", /* Radius der Rundung des Artikelbereich */ 
+            "font-weight-articles": "normal", /* Schrift-Gewicht des Artikelbereichs */
+            "font-size-desc": "1.4rem", /* Schrift-Größe Artikelbeschreibung */
+            "position-advertising": "0", /* Position der Werbebilder */
+            "border-leftright-advertising": "0 solid #000", /* Linker und rechte Rahmen der Werbebilder */
+            "border-top-advertising": "1px solid rgb(207, 231, 250)", /* Oberer Rahmen der Werbebilder */
+            "border-bottom-advertising": "1px solid rgb(207, 231, 250)", /* Unterer Rahmen der Werbebilder */
+            "logo": "url(../img/SignorRossiWhite.svg)", /* Logo */
+            "slogan": "Signor Rossi Café" /* Werbeslogan */ 
+        }
+    }
+}

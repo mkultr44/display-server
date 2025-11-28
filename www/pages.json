@@ -1,0 +1,34 @@
+{
+	"pages": {
+		"1": {
+            "name": "Max. 6 Artikel und Werbung",
+            "url": "index6ArtikelWerbung.html",
+            "articles": 6,
+            "media": 1
+		},
+		"2": {
+            "name": "Max. 10 Artikel",
+            "url": "index10Artikel.html",
+            "articles": 10,
+            "media": 0
+        },
+        "3": {
+            "name": "Werbung und max. 6 Artikel",
+            "url": "indexWerbung6Artikel.html",
+            "articles": 6,
+            "media": 1
+		},
+        "4": {
+            "name": "Nur Werbung",
+            "url": "indexWerbung.html",
+            "articles": 0,
+            "media": 1
+		},
+        "5": {
+            "name": "Max. 10 Artikel und 3 Werbebilder",
+            "url": "index10Artikel3Werbung.html",
+            "articles": 10,
+            "media": 3
+        }
+	}
+}
